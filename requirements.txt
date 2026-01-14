@@ -1,0 +1,9 @@
+numpy
+pandas
+opencv-python
+tqdm
+matplotlib
+torch
+segmentation-models-pytorch
+albumentations
+requests

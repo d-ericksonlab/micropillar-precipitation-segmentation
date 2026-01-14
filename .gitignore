@@ -1,0 +1,25 @@
+# --- Large raw microscopy data (do not upload) ---
+*.lif
+*.tif
+*.tiff
+*.czi
+*.nd2
+*.ome.tif
+
+# --- Ignore large image folders, but still allow small example PNGs ---
+data/raw_images/
+data/full_dataset/
+data/all_images/
+
+# --- Generated outputs ---
+outputs/
+figures/
+
+# --- Jupyter / Python junk ---
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# --- OS clutter ---
+.DS_Store
+Thumbs.db

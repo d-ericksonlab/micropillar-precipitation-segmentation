@@ -1,11 +1,18 @@
-## How to run (end-to-end)
-1. Put paired PNG images into `data/raw_images/`
-   - C1 brightfield (pillar masking)
-   - C2 TL-POL (precipitation quantification)
+# Micropillar Dual-Mode Image Analysis Pipeline
 
-2. Open `micropillar_full_pipeline.ipynb` in Google Colab or Jupyter.
+This repository contains a single reproducible Jupyter notebook used to:
+- segment micropillars from C1 images using a trained U-Net
+- quantify birefringent CaCO₃ signal in C2 images in the non-pillar region
 
-3. Run all cells.
-   - The model checkpoint is downloaded automatically from Box (first cell).
-   - Pillar masks are saved to `outputs/pillar_masks/`
-   - Precipitation results are saved to `outputs/`
+## Quickstart
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Place paired images in:
+   data/images/
+
+3. Run the notebook:
+   micropillar_pipeline.ipynb
+
+Outputs are written to:
+results/

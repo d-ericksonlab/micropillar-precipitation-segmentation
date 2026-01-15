@@ -1,9 +1,20 @@
+# Core scientific stack
 numpy
 pandas
-opencv-python
-tqdm
 matplotlib
-torch
+tqdm
+
+# Image I/O + processing
+opencv-python
+
+# U-Net segmentation + preprocessing
 segmentation-models-pytorch
 albumentations
-requests
+
+# Deep learning (CPU default; Colab already provides this)
+torch
+torchvision
+
+# Optional but helpful (reading/writing notebooks, compatibility checks)
+nbformat
+ipykernel

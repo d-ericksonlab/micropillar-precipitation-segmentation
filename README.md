@@ -39,9 +39,7 @@ Parsed attributes:
    - Box link: https://cornell.box.com/s/4dyu78bhtpabm98jgz40gdp5wmoe71xn
    - The notebook will place the uploaded file at: `model/pillar_unet.pt`
 
-4. Place paired images in `test_images/` using the naming convention above.
-
-5. Run the remaining notebook cells to:
+4. Run the remaining notebook cells to:
    - generate pillar masks for all C1 images
    - quantify C2 signal in the non-pillar region
    - produce per-image storyboard outputs
